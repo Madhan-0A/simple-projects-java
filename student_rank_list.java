@@ -63,9 +63,9 @@ public class student_rank_list {
                 }
             }
             // Swap
-            student temp = stu.get(i);
-            stu.set(i, stu.get(max));
-            stu.set(max, temp);
+            student temp = stu.get(i); // get the element at index i
+            stu.set(i, stu.get(max)); // set the element at index i to the element at index max
+            stu.set(max, temp); // set the element at index max to the element at index i
 
             /*
              * list = [10,20,15,5]
